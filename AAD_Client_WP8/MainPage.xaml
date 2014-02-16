@@ -51,21 +51,13 @@
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <StackPanel Name="spTOkenParamsForm" Visibility="Collapsed">
                 <TextBlock>Authority</TextBlock>
-                <TextBox Name="txtAuthority" Text="https://login.windows.net/treyresearch1.onmicrosoft.com"></TextBox>
+                <TextBox Name="txtAuthority" Text="https://login.windows.net/common"></TextBox>
                 <TextBlock>ClientID</TextBlock>
-                <TextBox Name="txtClientID" Text="4a491cff-73a9-4a45-b274-b5836a723b14"></TextBox>
+                <TextBox Name="txtClientID" Text="1950a258-227b-4e31-a9cf-717495945fc2"></TextBox>
                 <TextBlock>Resource</TextBlock>
-                <TextBox Name="txtResource" Text="http://localhost:8643/"></TextBox>
+                <TextBox Name="txtResource" Text="https://management.core.windows.net/"></TextBox>
                 <TextBlock>RedirectUri</TextBlock>
-                <TextBox Name="txtRedirectUri" Text="http://whatevah"></TextBox>
-                <!--<TextBlock>Authority</TextBlock>
-                <TextBox Name="txtAuthority" Text="https://sts.contoso100.com/adfs"></TextBox>
-                <TextBlock>ClientID</TextBlock>
-                <TextBox Name="txtClientID" Text="E1CF1107-FF90-4228-93BF-26052DD2C714"></TextBox>
-                <TextBlock>Resource</TextBlock>
-                <TextBox Name="txtResource" Text="http://myadfsvagaries/webapi"></TextBox>
-                <TextBlock>RedirectUri</TextBlock>
-                <TextBox Name="txtRedirectUri" Text="http://anarbitraryreturnuri/"></TextBox>-->
+                <TextBox Name="txtRedirectUri" Text="urn:ietf:wg:oauth:2.0:oob"></TextBox>                
                 <Button Name="btnSignIn" Click="btnSignIn_Click" Width="200" HorizontalAlignment="Right" >Get Token >></Button>
             </StackPanel>
             <StackPanel Name="spResults" Visibility="Visible">
